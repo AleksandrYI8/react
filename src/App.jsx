@@ -7,6 +7,13 @@ import four from '../public/four.svg'
 import firste from '../public/first.svg'
 import sec from '../public/seccond.svg'
 import therd from '../public/therd.svg'
+import six_f from '../public/six_f.svg'
+import six_s from '../public/six_s.svg'
+import six_th from '../public/six_th.svg'
+import six_fourth from '../public/six_fourth.svg'
+import six_main from '../public/six_main.svg'
+
+
 
 function App() {
 
@@ -114,12 +121,12 @@ function App() {
         <div className="sec_five">
           <h1>Our project </h1>
           <p>Introducing our first official project</p>
-          
+
           <div className="boxes">
-          <div className="box">
-            <div className="line"></div>
-            <div className="line"></div>
-          </div>
+            <div className="box">
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
           </div>
 
           <div className="big_box">
@@ -143,6 +150,42 @@ function App() {
                 om for . Night Watc works beautifully in a wi- <br />
                 de gamut of arrangements.</p>
               <img src={therd} alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="sec_six">
+          <h1>Testimonial</h1>
+          <div className="box">
+            <img src={six_f} alt="" />
+            <img src={six_s} alt="" />
+            <img src={six_th} alt="" />
+            <img src={six_fourth} alt="" />
+          </div>
+
+          <div className="sec_box">
+            <div className="left">
+              <img src={six_main} alt="" />
+            </div>
+            <div className="right">
+              <div className="box">
+                <h1><span>105</span><br />
+                  project <br />
+                  done</h1>
+
+                <h1><span>12</span><br />
+                  years of <br />
+                  experience</h1>
+                <h1><span>10+</span><br />
+                  big company <br />
+                  partnership</h1>
+
+              </div>
+              <h6>"Not able to tell you how happy I am with interior design. <br />
+                Interior design has completely surpassed our expectations. <br />
+                Interior design saved my business. Interior design is worth <br />
+                much more than I paid."</h6>
+              <p> - Roscoe</p>
             </div>
           </div>
         </div>

@@ -259,6 +259,7 @@ header .right button:active {
 .sec_five {
   width: 95%;
   margin-left: 2.5%;
+  margin-bottom: 250px;
 }
 .sec_five h1 {
   font-family: "Poppins", sans-serif;
@@ -296,7 +297,9 @@ header .right button:active {
   display: flex;
   gap: 100px;
 }
-.sec_five .big_box .left h1, .sec_five .big_box .midle h1, .sec_five .big_box .right h1 {
+.sec_five .big_box .left h1,
+.sec_five .big_box .midle h1,
+.sec_five .big_box .right h1 {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -306,7 +309,9 @@ header .right button:active {
   margin-bottom: 5px;
   scale: 0.9;
 }
-.sec_five .big_box .left p, .sec_five .big_box .midle p, .sec_five .big_box .right p {
+.sec_five .big_box .left p,
+.sec_five .big_box .midle p,
+.sec_five .big_box .right p {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -316,7 +321,76 @@ header .right button:active {
   margin-bottom: 35px;
   scale: 0.9;
 }
-.sec_five .big_box .left img, .sec_five .big_box .midle img, .sec_five .big_box .right img {
+.sec_five .big_box .left img,
+.sec_five .big_box .midle img,
+.sec_five .big_box .right img {
   margin-bottom: 30px;
   scale: 0.9;
+}
+
+.sec_six {
+  width: 95%;
+  margin-left: 2.5%;
+}
+.sec_six h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sec_six .box {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.sec_six .sec_box {
+  width: 95%;
+  margin-left: 2.5%;
+  display: flex;
+}
+.sec_six .sec_box .right {
+  width: 70%;
+  background-color: #CCF0E6;
+  padding-top: 70px;
+}
+.sec_six .sec_box .right .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.sec_six .sec_box .right .box h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+  line-height: 45px;
+  color: #58A9A5;
+}
+.sec_six .sec_box .right .box span {
+  font-size: 70px;
+}
+.sec_six .sec_box .right h6 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 37.5px;
+  text-align: left;
+  color: #486958;
+  margin-bottom: 50px;
+}
+.sec_six .sec_box .right p {
+  padding-left: 70px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 37.5px;
+  text-align: left;
+  color: #58A9A5;
 }/*# sourceMappingURL=App.css.map */
