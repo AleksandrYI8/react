@@ -188,6 +188,30 @@ function App() {
               <p> - Roscoe</p>
             </div>
           </div>
+
+          <div className="sec_seven">
+            <div className="left">
+              <h1>Contact Us</h1>
+              <p>Have any questions? Want help <br />
+                before getting started?</p>
+              <div className="box">
+                <div className="line"></div>
+                <div className="line"></div>
+              </div>
+            </div>
+            <div className="right">
+              <form>
+                <input placeholder="Full name" type="name" />
+                <hr />
+                <input placeholder="Email" type="email" />
+                <hr />
+                <input className='therd'  placeholder="Description" type="text" />
+                
+
+                <button>Send now</button>
+              </form>
+            </div>
+          </div>
         </div>
 
 
